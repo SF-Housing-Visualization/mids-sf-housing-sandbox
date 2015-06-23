@@ -34,7 +34,15 @@ cars$Period = as.Date(sapply(DirtyPeriod, cleanPeriod))
 ### Testing...
 #####################
 
+make_image_name = function(base_name,filetype='png'){
+  return(paste0(base_name, '_', format(Sys.time(), "%Y%m%d_%H%M%S"), '.', filetype))
+}
+
 metal = melt(cars, id.vars='Period', variable.name='County', value.name='Affordability')
-head(metal)
-ggplot(metal, aes(x=Period, y=Affordability)) + geom_line() + facet_wrap(~County) + scale_x_date(labels = date_format("%y"))
+
+# save a simple viz
+linegrid = ggplot(metal, aes(x=Period, y=Affordability)) + geom_line() + facet_wrap(~County) + scale_x_date(labels = date_format("%y"))
+linegrid
+ggsave(filename = make_image_name('county_affordability_grid'), plot=linegrid, path='../image', width = 10, height = 7)
+
 
