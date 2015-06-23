@@ -7,6 +7,8 @@
 mids-sf-housing-sandbox/
   /data
     # put your data here
-  /viz
-    # put your viz scripts here
+  /code
+    # put your data cleaning and viz scripts here
+  /image
+    # save static images of viz here
 ```
