@@ -54,6 +54,9 @@ linegrid
 ### Testing Maps
 ########################
 
+# Using this link as guid
+# https://rud.is/b/2014/09/26/overcoming-d3-cartographic-envy-with-r-ggplot/
+
 mapjson = '../data/caCountiesGeo.json'
 
 ogrListLayers(mapjson)
