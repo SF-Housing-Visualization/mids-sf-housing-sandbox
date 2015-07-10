@@ -1,0 +1,9 @@
+B19013 HH Income Median
+Median income for each county.
+
+Year
+Id
+Id2
+Geography
+Estimate; Median household income in the past 12 months 
+Margin of Error; Median household income in the past 12 months

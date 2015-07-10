@@ -1,0 +1,9 @@
+B25071 Median Rent Percent HH Income
+Basically what percentage of household income are people using for rent.
+
+Year
+Id
+Id2
+Geography
+Estimate; Median gross rent as a percentage of household income
+Margin of Error; Median gross rent as a percentage of household income

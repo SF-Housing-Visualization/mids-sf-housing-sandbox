@@ -1,0 +1,14 @@
+B19083 GINI Index Income Inequality
+
+The Gini index is a measure, ranging between 0 and 1, of inequality. The Gini index measures how much the distribution of income or wealth in an area differs from a completely equal distribution. A Gini index of 0 indicates that everyone has the same income; an index of 1 means one person has all the money and everyone else has nothing.
+
+https://en.wikipedia.org/wiki/Gini_coefficient
+
+
+
+Year
+Id
+Id2
+Geography
+Estimate; Gini Index
+Margin of Error; Gini Index

@@ -1,0 +1,21 @@
+B19081 Household Income Mean Quintile
+The mean income for each quintile (20% group), plus the mean for the top 5%.
+
+
+
+Year
+Id
+Id2
+Geography
+Estimate; Quintile Means: - Lowest Quintile
+Margin of Error; Quintile Means: - Lowest Quintile
+Estimate; Quintile Means: - Second Quintile
+Margin of Error; Quintile Means: - Second Quintile
+Estimate; Quintile Means: - Third Quintile
+Margin of Error; Quintile Means: - Third Quintile
+Estimate; Quintile Means: - Fourth Quintile
+Margin of Error; Quintile Means: - Fourth Quintile
+Estimate; Quintile Means: - Highest Quintile
+Margin of Error; Quintile Means: - Highest Quintile
+Estimate; Top 5 Percent
+Margin of Error; Top 5 Percent
