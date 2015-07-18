@@ -1,0 +1,361 @@
+Id,Id2,Geography,Year,Estimate; Median contract rent,Margin of Error; Median contract rent
+0500000US06001,6001,"Alameda County, California",2005,987,18
+0500000US06007,6007,"Butte County, California",2005,660,23
+0500000US06013,6013,"Contra Costa County, California",2005,1047,26
+0500000US06017,6017,"El Dorado County, California",2005,854,34
+0500000US06019,6019,"Fresno County, California",2005,602,16
+0500000US06023,6023,"Humboldt County, California",2005,561,31
+0500000US06025,6025,"Imperial County, California",2005,475,42
+0500000US06029,6029,"Kern County, California",2005,555,18
+0500000US06031,6031,"Kings County, California",2005,564,38
+0500000US06033,6033,"Lake County, California",2005,589,55
+0500000US06037,6037,"Los Angeles County, California",2005,852,5
+0500000US06039,6039,"Madera County, California",2005,549,43
+0500000US06041,6041,"Marin County, California",2005,1323,69
+0500000US06045,6045,"Mendocino County, California",2005,649,46
+0500000US06047,6047,"Merced County, California",2005,612,27
+0500000US06053,6053,"Monterey County, California",2005,946,31
+0500000US06055,6055,"Napa County, California",2005,992,47
+0500000US06057,6057,"Nevada County, California",2005,851,74
+0500000US06059,6059,"Orange County, California",2005,1161,11
+0500000US06061,6061,"Placer County, California",2005,935,47
+0500000US06065,6065,"Riverside County, California",2005,823,19
+0500000US06067,6067,"Sacramento County, California",2005,785,9
+0500000US06071,6071,"San Bernardino County, California",2005,817,18
+0500000US06073,6073,"San Diego County, California",2005,999,13
+0500000US06075,6075,"San Francisco County, California",2005,1068,20
+0500000US06077,6077,"San Joaquin County, California",2005,755,19
+0500000US06079,6079,"San Luis Obispo County, California",2005,936,57
+0500000US06081,6081,"San Mateo County, California",2005,1199,28
+0500000US06083,6083,"Santa Barbara County, California",2005,1052,53
+0500000US06085,6085,"Santa Clara County, California",2005,1145,21
+0500000US06087,6087,"Santa Cruz County, California",2005,1109,46
+0500000US06089,6089,"Shasta County, California",2005,610,36
+0500000US06095,6095,"Solano County, California",2005,989,32
+0500000US06097,6097,"Sonoma County, California",2005,974,28
+0500000US06099,6099,"Stanislaus County, California",2005,697,22
+0500000US06101,6101,"Sutter County, California",2005,668,39
+0500000US06107,6107,"Tulare County, California",2005,508,21
+0500000US06111,6111,"Ventura County, California",2005,1097,32
+0500000US06113,6113,"Yolo County, California",2005,853,30
+0500000US06115,6115,"Yuba County, California",2005,586,81
+0500000US06001,6001,"Alameda County, California",2006,1015,19
+0500000US06007,6007,"Butte County, California",2006,694,26
+0500000US06013,6013,"Contra Costa County, California",2006,1086,28
+0500000US06017,6017,"El Dorado County, California",2006,855,82
+0500000US06019,6019,"Fresno County, California",2006,626,13
+0500000US06023,6023,"Humboldt County, California",2006,643,35
+0500000US06025,6025,"Imperial County, California",2006,518,45
+0500000US06029,6029,"Kern County, California",2006,604,14
+0500000US06031,6031,"Kings County, California",2006,559,59
+0500000US06033,6033,"Lake County, California",2006,629,54
+0500000US06037,6037,"Los Angeles County, California",2006,905,7
+0500000US06039,6039,"Madera County, California",2006,667,55
+0500000US06041,6041,"Marin County, California",2006,1383,46
+0500000US06045,6045,"Mendocino County, California",2006,750,87
+0500000US06047,6047,"Merced County, California",2006,658,27
+0500000US06053,6053,"Monterey County, California",2006,950,29
+0500000US06055,6055,"Napa County, California",2006,998,66
+0500000US06057,6057,"Nevada County, California",2006,966,122
+0500000US06059,6059,"Orange County, California",2006,1228,13
+0500000US06061,6061,"Placer County, California",2006,939,30
+0500000US06065,6065,"Riverside County, California",2006,892,17
+0500000US06067,6067,"Sacramento County, California",2006,823,14
+0500000US06071,6071,"San Bernardino County, California",2006,855,11
+0500000US06073,6073,"San Diego County, California",2006,1052,14
+0500000US06075,6075,"San Francisco County, California",2006,1128,26
+0500000US06077,6077,"San Joaquin County, California",2006,762,22
+0500000US06079,6079,"San Luis Obispo County, California",2006,961,45
+0500000US06081,6081,"San Mateo County, California",2006,1251,35
+0500000US06083,6083,"Santa Barbara County, California",2006,1067,38
+0500000US06085,6085,"Santa Clara County, California",2006,1169,14
+0500000US06087,6087,"Santa Cruz County, California",2006,1090,43
+0500000US06089,6089,"Shasta County, California",2006,598,31
+0500000US06095,6095,"Solano County, California",2006,965,32
+0500000US06097,6097,"Sonoma County, California",2006,1045,32
+0500000US06099,6099,"Stanislaus County, California",2006,715,22
+0500000US06101,6101,"Sutter County, California",2006,665,33
+0500000US06107,6107,"Tulare County, California",2006,536,19
+0500000US06111,6111,"Ventura County, California",2006,1193,33
+0500000US06113,6113,"Yolo County, California",2006,826,33
+0500000US06115,6115,"Yuba County, California",2006,602,94
+0500000US06001,6001,"Alameda County, California",2007,1038,17
+0500000US06007,6007,"Butte County, California",2007,691,31
+0500000US06013,6013,"Contra Costa County, California",2007,1115,28
+0500000US06017,6017,"El Dorado County, California",2007,850,47
+0500000US06019,6019,"Fresno County, California",2007,679,12
+0500000US06023,6023,"Humboldt County, California",2007,685,45
+0500000US06025,6025,"Imperial County, California",2007,499,22
+0500000US06029,6029,"Kern County, California",2007,641,13
+0500000US06031,6031,"Kings County, California",2007,595,30
+0500000US06033,6033,"Lake County, California",2007,739,82
+0500000US06037,6037,"Los Angeles County, California",2007,957,6
+0500000US06039,6039,"Madera County, California",2007,656,47
+0500000US06041,6041,"Marin County, California",2007,1363,49
+0500000US06045,6045,"Mendocino County, California",2007,727,48
+0500000US06047,6047,"Merced County, California",2007,662,46
+0500000US06053,6053,"Monterey County, California",2007,989,24
+0500000US06055,6055,"Napa County, California",2007,1074,70
+0500000US06057,6057,"Nevada County, California",2007,875,37
+0500000US06059,6059,"Orange County, California",2007,1293,13
+0500000US06061,6061,"Placer County, California",2007,959,43
+0500000US06065,6065,"Riverside County, California",2007,944,24
+0500000US06067,6067,"Sacramento County, California",2007,847,13
+0500000US06071,6071,"San Bernardino County, California",2007,919,16
+0500000US06073,6073,"San Diego County, California",2007,1089,12
+0500000US06075,6075,"San Francisco County, California",2007,1141,22
+0500000US06077,6077,"San Joaquin County, California",2007,801,23
+0500000US06079,6079,"San Luis Obispo County, California",2007,990,61
+0500000US06081,6081,"San Mateo County, California",2007,1369,30
+0500000US06083,6083,"Santa Barbara County, California",2007,1117,35
+0500000US06085,6085,"Santa Clara County, California",2007,1244,24
+0500000US06087,6087,"Santa Cruz County, California",2007,1094,51
+0500000US06089,6089,"Shasta County, California",2007,651,40
+0500000US06095,6095,"Solano County, California",2007,1025,50
+0500000US06097,6097,"Sonoma County, California",2007,1069,34
+0500000US06099,6099,"Stanislaus County, California",2007,782,29
+0500000US06101,6101,"Sutter County, California",2007,678,23
+0500000US06107,6107,"Tulare County, California",2007,576,50
+0500000US06111,6111,"Ventura County, California",2007,1243,41
+0500000US06113,6113,"Yolo County, California",2007,888,30
+0500000US06115,6115,"Yuba County, California",2007,624,39
+0500000US06001,6001,"Alameda County, California",2008,1122,15
+0500000US06007,6007,"Butte County, California",2008,726,31
+0500000US06013,6013,"Contra Costa County, California",2008,1179,24
+0500000US06017,6017,"El Dorado County, California",2008,931,55
+0500000US06019,6019,"Fresno County, California",2008,684,14
+0500000US06023,6023,"Humboldt County, California",2008,659,46
+0500000US06025,6025,"Imperial County, California",2008,545,24
+0500000US06029,6029,"Kern County, California",2008,679,17
+0500000US06031,6031,"Kings County, California",2008,750,53
+0500000US06033,6033,"Lake County, California",2008,665,89
+0500000US06037,6037,"Los Angeles County, California",2008,1006,8
+0500000US06039,6039,"Madera County, California",2008,798,73
+0500000US06041,6041,"Marin County, California",2008,1515,78
+0500000US06045,6045,"Mendocino County, California",2008,727,75
+0500000US06047,6047,"Merced County, California",2008,619,34
+0500000US06053,6053,"Monterey County, California",2008,998,45
+0500000US06055,6055,"Napa County, California",2008,1056,89
+0500000US06057,6057,"Nevada County, California",2008,877,53
+0500000US06059,6059,"Orange County, California",2008,1345,16
+0500000US06061,6061,"Placer County, California",2008,1056,62
+0500000US06065,6065,"Riverside County, California",2008,1005,25
+0500000US06067,6067,"Sacramento County, California",2008,870,13
+0500000US06071,6071,"San Bernardino County, California",2008,957,16
+0500000US06073,6073,"San Diego County, California",2008,1132,13
+0500000US06075,6075,"San Francisco County, California",2008,1206,35
+0500000US06077,6077,"San Joaquin County, California",2008,800,23
+0500000US06079,6079,"San Luis Obispo County, California",2008,1009,51
+0500000US06081,6081,"San Mateo County, California",2008,1371,31
+0500000US06083,6083,"Santa Barbara County, California",2008,1200,46
+0500000US06085,6085,"Santa Clara County, California",2008,1339,26
+0500000US06087,6087,"Santa Cruz County, California",2008,1203,54
+0500000US06089,6089,"Shasta County, California",2008,687,36
+0500000US06095,6095,"Solano County, California",2008,1100,36
+0500000US06097,6097,"Sonoma County, California",2008,1078,36
+0500000US06099,6099,"Stanislaus County, California",2008,789,20
+0500000US06101,6101,"Sutter County, California",2008,681,34
+0500000US06107,6107,"Tulare County, California",2008,617,23
+0500000US06111,6111,"Ventura County, California",2008,1311,31
+0500000US06113,6113,"Yolo County, California",2008,976,43
+0500000US06115,6115,"Yuba County, California",2008,713,59
+0500000US06001,6001,"Alameda County, California",2009,1111,16
+0500000US06007,6007,"Butte County, California",2009,738,42
+0500000US06013,6013,"Contra Costa County, California",2009,1185,32
+0500000US06017,6017,"El Dorado County, California",2009,990,71
+0500000US06019,6019,"Fresno County, California",2009,718,13
+0500000US06023,6023,"Humboldt County, California",2009,722,39
+0500000US06025,6025,"Imperial County, California",2009,547,26
+0500000US06029,6029,"Kern County, California",2009,701,21
+0500000US06031,6031,"Kings County, California",2009,690,33
+0500000US06033,6033,"Lake County, California",2009,695,122
+0500000US06037,6037,"Los Angeles County, California",2009,1049,9
+0500000US06039,6039,"Madera County, California",2009,721,61
+0500000US06041,6041,"Marin County, California",2009,1511,78
+0500000US06045,6045,"Mendocino County, California",2009,728,50
+0500000US06047,6047,"Merced County, California",2009,686,24
+0500000US06053,6053,"Monterey County, California",2009,1016,39
+0500000US06055,6055,"Napa County, California",2009,1152,65
+0500000US06057,6057,"Nevada County, California",2009,1042,97
+0500000US06059,6059,"Orange County, California",2009,1367,12
+0500000US06061,6061,"Placer County, California",2009,1015,60
+0500000US06065,6065,"Riverside County, California",2009,986,17
+0500000US06067,6067,"Sacramento County, California",2009,860,14
+0500000US06071,6071,"San Bernardino County, California",2009,934,17
+0500000US06073,6073,"San Diego County, California",2009,1157,14
+0500000US06075,6075,"San Francisco County, California",2009,1312,37
+0500000US06077,6077,"San Joaquin County, California",2009,859,17
+0500000US06079,6079,"San Luis Obispo County, California",2009,1011,53
+0500000US06081,6081,"San Mateo County, California",2009,1381,33
+0500000US06083,6083,"Santa Barbara County, California",2009,1183,38
+0500000US06085,6085,"Santa Clara County, California",2009,1349,22
+0500000US06087,6087,"Santa Cruz County, California",2009,1159,62
+0500000US06089,6089,"Shasta County, California",2009,686,26
+0500000US06095,6095,"Solano County, California",2009,1077,47
+0500000US06097,6097,"Sonoma County, California",2009,1073,43
+0500000US06099,6099,"Stanislaus County, California",2009,802,24
+0500000US06101,6101,"Sutter County, California",2009,704,45
+0500000US06107,6107,"Tulare County, California",2009,664,33
+0500000US06111,6111,"Ventura County, California",2009,1301,42
+0500000US06113,6113,"Yolo County, California",2009,946,36
+0500000US06115,6115,"Yuba County, California",2009,688,61
+0500000US06001,6001,"Alameda County, California",2010,1126,14
+0500000US06007,6007,"Butte County, California",2010,764,29
+0500000US06013,6013,"Contra Costa County, California",2010,1198,26
+0500000US06017,6017,"El Dorado County, California",2010,981,111
+0500000US06019,6019,"Fresno County, California",2010,707,17
+0500000US06023,6023,"Humboldt County, California",2010,721,43
+0500000US06025,6025,"Imperial County, California",2010,615,31
+0500000US06029,6029,"Kern County, California",2010,709,18
+0500000US06031,6031,"Kings County, California",2010,692,39
+0500000US06033,6033,"Lake County, California",2010,649,74
+0500000US06037,6037,"Los Angeles County, California",2010,1061,7
+0500000US06039,6039,"Madera County, California",2010,788,65
+0500000US06041,6041,"Marin County, California",2010,1428,58
+0500000US06045,6045,"Mendocino County, California",2010,845,40
+0500000US06047,6047,"Merced County, California",2010,687,29
+0500000US06053,6053,"Monterey County, California",2010,1075,42
+0500000US06055,6055,"Napa County, California",2010,1113,52
+0500000US06057,6057,"Nevada County, California",2010,878,83
+0500000US06059,6059,"Orange County, California",2010,1320,13
+0500000US06061,6061,"Placer County, California",2010,980,49
+0500000US06065,6065,"Riverside County, California",2010,985,22
+0500000US06067,6067,"Sacramento County, California",2010,865,13
+0500000US06071,6071,"San Bernardino County, California",2010,922,18
+0500000US06073,6073,"San Diego County, California",2010,1178,12
+0500000US06075,6075,"San Francisco County, California",2010,1321,38
+0500000US06077,6077,"San Joaquin County, California",2010,848,22
+0500000US06079,6079,"San Luis Obispo County, California",2010,1034,53
+0500000US06081,6081,"San Mateo County, California",2010,1394,31
+0500000US06083,6083,"Santa Barbara County, California",2010,1183,41
+0500000US06085,6085,"Santa Clara County, California",2010,1345,22
+0500000US06087,6087,"Santa Cruz County, California",2010,1194,64
+0500000US06089,6089,"Shasta County, California",2010,736,36
+0500000US06095,6095,"Solano County, California",2010,1096,39
+0500000US06097,6097,"Sonoma County, California",2010,1121,27
+0500000US06099,6099,"Stanislaus County, California",2010,813,26
+0500000US06101,6101,"Sutter County, California",2010,713,33
+0500000US06107,6107,"Tulare County, California",2010,665,27
+0500000US06111,6111,"Ventura County, California",2010,1294,53
+0500000US06113,6113,"Yolo County, California",2010,957,48
+0500000US06115,6115,"Yuba County, California",2010,707,55
+0500000US06001,6001,"Alameda County, California",2011,1173,17
+0500000US06007,6007,"Butte County, California",2011,741,31
+0500000US06013,6013,"Contra Costa County, California",2011,1181,28
+0500000US06017,6017,"El Dorado County, California",2011,871,50
+0500000US06019,6019,"Fresno County, California",2011,730,14
+0500000US06023,6023,"Humboldt County, California",2011,757,40
+0500000US06025,6025,"Imperial County, California",2011,592,55
+0500000US06029,6029,"Kern County, California",2011,713,22
+0500000US06031,6031,"Kings County, California",2011,769,26
+0500000US06033,6033,"Lake County, California",2011,791,115
+0500000US06037,6037,"Los Angeles County, California",2011,1073,6
+0500000US06039,6039,"Madera County, California",2011,671,33
+0500000US06041,6041,"Marin County, California",2011,1391,69
+0500000US06045,6045,"Mendocino County, California",2011,857,65
+0500000US06047,6047,"Merced County, California",2011,712,33
+0500000US06053,6053,"Monterey County, California",2011,1061,31
+0500000US06055,6055,"Napa County, California",2011,1223,92
+0500000US06057,6057,"Nevada County, California",2011,1009,141
+0500000US06059,6059,"Orange County, California",2011,1360,15
+0500000US06061,6061,"Placer County, California",2011,1040,55
+0500000US06065,6065,"Riverside County, California",2011,960,21
+0500000US06067,6067,"Sacramento County, California",2011,872,12
+0500000US06071,6071,"San Bernardino County, California",2011,937,18
+0500000US06073,6073,"San Diego County, California",2011,1170,16
+0500000US06075,6075,"San Francisco County, California",2011,1361,38
+0500000US06077,6077,"San Joaquin County, California",2011,834,22
+0500000US06079,6079,"San Luis Obispo County, California",2011,1125,46
+0500000US06081,6081,"San Mateo County, California",2011,1467,41
+0500000US06083,6083,"Santa Barbara County, California",2011,1181,39
+0500000US06085,6085,"Santa Clara County, California",2011,1389,20
+0500000US06087,6087,"Santa Cruz County, California",2011,1264,70
+0500000US06089,6089,"Shasta County, California",2011,728,42
+0500000US06095,6095,"Solano County, California",2011,1096,57
+0500000US06097,6097,"Sonoma County, California",2011,1108,27
+0500000US06099,6099,"Stanislaus County, California",2011,802,21
+0500000US06101,6101,"Sutter County, California",2011,715,87
+0500000US06107,6107,"Tulare County, California",2011,641,24
+0500000US06111,6111,"Ventura County, California",2011,1303,42
+0500000US06113,6113,"Yolo County, California",2011,900,49
+0500000US06115,6115,"Yuba County, California",2011,628,81
+0500000US06001,6001,"Alameda County, California",2012,1182,16
+0500000US06007,6007,"Butte County, California",2012,783,28
+0500000US06013,6013,"Contra Costa County, California",2012,1230,28
+0500000US06017,6017,"El Dorado County, California",2012,945,65
+0500000US06019,6019,"Fresno County, California",2012,740,14
+0500000US06023,6023,"Humboldt County, California",2012,738,49
+0500000US06025,6025,"Imperial County, California",2012,595,29
+0500000US06029,6029,"Kern County, California",2012,723,19
+0500000US06031,6031,"Kings County, California",2012,691,29
+0500000US06033,6033,"Lake County, California",2012,644,52
+0500000US06037,6037,"Los Angeles County, California",2012,1088,6
+0500000US06039,6039,"Madera County, California",2012,780,67
+0500000US06041,6041,"Marin County, California",2012,1500,56
+0500000US06045,6045,"Mendocino County, California",2012,740,90
+0500000US06047,6047,"Merced County, California",2012,711,30
+0500000US06053,6053,"Monterey County, California",2012,1094,36
+0500000US06055,6055,"Napa County, California",2012,1214,58
+0500000US06057,6057,"Nevada County, California",2012,1048,79
+0500000US06059,6059,"Orange County, California",2012,1391,13
+0500000US06061,6061,"Placer County, California",2012,1093,50
+0500000US06065,6065,"Riverside County, California",2012,985,19
+0500000US06067,6067,"Sacramento County, California",2012,869,12
+0500000US06071,6071,"San Bernardino County, California",2012,936,18
+0500000US06073,6073,"San Diego County, California",2012,1195,11
+0500000US06075,6075,"San Francisco County, California",2012,1459,38
+0500000US06077,6077,"San Joaquin County, California",2012,845,22
+0500000US06079,6079,"San Luis Obispo County, California",2012,1087,38
+0500000US06081,6081,"San Mateo County, California",2012,1500,38
+0500000US06083,6083,"Santa Barbara County, California",2012,1234,39
+0500000US06085,6085,"Santa Clara County, California",2012,1480,21
+0500000US06087,6087,"Santa Cruz County, California",2012,1378,75
+0500000US06089,6089,"Shasta County, California",2012,754,46
+0500000US06095,6095,"Solano County, California",2012,1115,30
+0500000US06097,6097,"Sonoma County, California",2012,1145,26
+0500000US06099,6099,"Stanislaus County, California",2012,806,17
+0500000US06101,6101,"Sutter County, California",2012,744,53
+0500000US06107,6107,"Tulare County, California",2012,689,26
+0500000US06111,6111,"Ventura County, California",2012,1356,34
+0500000US06113,6113,"Yolo County, California",2012,934,34
+0500000US06115,6115,"Yuba County, California",2012,760,57
+0500000US06001,6001,"Alameda County, California",2013,1236,17
+0500000US06007,6007,"Butte County, California",2013,765,38
+0500000US06013,6013,"Contra Costa County, California",2013,1283,38
+0500000US06017,6017,"El Dorado County, California",2013,866,37
+0500000US06019,6019,"Fresno County, California",2013,738,13
+0500000US06023,6023,"Humboldt County, California",2013,797,44
+0500000US06025,6025,"Imperial County, California",2013,639,32
+0500000US06029,6029,"Kern County, California",2013,744,19
+0500000US06031,6031,"Kings County, California",2013,694,48
+0500000US06033,6033,"Lake County, California",2013,764,25
+0500000US06037,6037,"Los Angeles County, California",2013,1114,6
+0500000US06039,6039,"Madera County, California",2013,826,23
+0500000US06041,6041,"Marin County, California",2013,1527,90
+0500000US06045,6045,"Mendocino County, California",2013,785,83
+0500000US06047,6047,"Merced County, California",2013,730,31
+0500000US06053,6053,"Monterey County, California",2013,1139,30
+0500000US06055,6055,"Napa County, California",2013,1197,67
+0500000US06057,6057,"Nevada County, California",2013,1071,90
+0500000US06059,6059,"Orange County, California",2013,1429,16
+0500000US06061,6061,"Placer County, California",2013,1172,49
+0500000US06065,6065,"Riverside County, California",2013,1016,18
+0500000US06067,6067,"Sacramento County, California",2013,890,15
+0500000US06071,6071,"San Bernardino County, California",2013,962,14
+0500000US06073,6073,"San Diego County, California",2013,1214,13
+0500000US06075,6075,"San Francisco County, California",2013,1440,32
+0500000US06077,6077,"San Joaquin County, California",2013,849,20
+0500000US06079,6079,"San Luis Obispo County, California",2013,1078,48
+0500000US06081,6081,"San Mateo County, California",2013,1599,42
+0500000US06083,6083,"Santa Barbara County, California",2013,1237,43
+0500000US06085,6085,"Santa Clara County, California",2013,1577,24
+0500000US06087,6087,"Santa Cruz County, California",2013,1244,66
+0500000US06089,6089,"Shasta County, California",2013,713,36
+0500000US06095,6095,"Solano County, California",2013,1145,35
+0500000US06097,6097,"Sonoma County, California",2013,1172,34
+0500000US06099,6099,"Stanislaus County, California",2013,797,15
+0500000US06101,6101,"Sutter County, California",2013,835,39
+0500000US06107,6107,"Tulare County, California",2013,669,25
+0500000US06111,6111,"Ventura County, California",2013,1432,34
+0500000US06113,6113,"Yolo County, California",2013,988,41
+0500000US06115,6115,"Yuba County, California",2013,768,51
