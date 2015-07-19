@@ -1,10 +1,10 @@
-# Strucutre
+# Structure
 
 This is the sructure of the data that the visualizaiton will ultimately use. We need to get our data in to this format.
 
-There are three csv's. One which has the actual data (data_values.csv), one which contains information about each variable (data_variables.csv), and one which contains information about geographic locations (data_geo.csv).
+There are three csv's. One which has the actual data (data_values.csv), one which contains information about each variable (data_variables.csv), and one which contains information about geographic locations (data_geos.csv).
 
-We can denormalize these in to a single table for consumption of the data viz, but these should be kept as three different csv's so, for example, if we change the description of a variable we only have to do it in one place.
+We can denormalize these in to a single table for consumption by the data viz, but these should be kept as three different csv's so, for example, if we change the description of a variable we only have to do it in one place.
 
 ## data_values.csv
 
@@ -26,7 +26,7 @@ This contains information about each variable used in our visualization
 <ol>
 	<li>VariableID: the id we have given the variable</li>
 	<li>VariableName: the name of the variable as we want it to appear in the visualizaiton</li>
-	<li>VariableExplanation: longer explanation of the variable as it will appear in the explanatory text</li>
+	<li>VariableDescription: longer explanation of the variable as it will appear in the explanatory text</li>
 </ol>
 
 ## data_geos.csv
