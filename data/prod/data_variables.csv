@@ -1,0 +1,20 @@
+GroupID,GroupName,VariableID,VariableName,VariableDescription
+CARS,California Association of Realtors,Affordability,CARS Affordability Index,C.A.R.'s Traditional Housing Affordability Index (HAI) measures the percentage of households that can afford to purchase the median priced home in the state and regions of California based on traditional assumptions. C.A.R. also reports its traditional and first-time buyer indexes for regions and select counties within the state. The HAI is the most fundamental measure of housing well-being for buyers in the state.
+B19001,Houshold Income,Estimate; Total:,Estimate; Total:,The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $10,000 to $14,999","Estimate; Total: - $10,000 to $14,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $100,000 to $124,999","Estimate; Total: - $100,000 to $124,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $125,000 to $149,999","Estimate; Total: - $125,000 to $149,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $15,000 to $19,999","Estimate; Total: - $15,000 to $19,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $150,000 to $199,999","Estimate; Total: - $150,000 to $199,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $20,000 to $24,999","Estimate; Total: - $20,000 to $24,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $200,000 or more","Estimate; Total: - $200,000 or more",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $25,000 to $29,999","Estimate; Total: - $25,000 to $29,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $30,000 to $34,999","Estimate; Total: - $30,000 to $34,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $35,000 to $39,999","Estimate; Total: - $35,000 to $39,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $40,000 to $44,999","Estimate; Total: - $40,000 to $44,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $45,000 to $49,999","Estimate; Total: - $45,000 to $49,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $50,000 to $59,999","Estimate; Total: - $50,000 to $59,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $60,000 to $74,999","Estimate; Total: - $60,000 to $74,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - $75,000 to $99,999","Estimate; Total: - $75,000 to $99,999",The count of house holds in each income bracket.
+B19001,Houshold Income,"Estimate; Total: - Less than $10,000","Estimate; Total: - Less than $10,000",The count of house holds in each income bracket.
+B19083,Gini Index,Estimate; Gini Index,Estimate; Gini Index,"The Gini Index is a measure of statistical dispersion intended to represent the income distribution of a nation's residents, and is the most commonly used measure of inequality. Zero indicates perfect equality and one indicates perfect inequality (one person has all the income)."
