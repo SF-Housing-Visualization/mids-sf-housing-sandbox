@@ -12,22 +12,11 @@ Directory structure for production data looks like this:
 
 This is the sructure of the data that the visualizaiton will ultimately use. We need to get our data in to this format.
 
-There are three csv's. One which has the actual data (data_values.csv), one which contains information about each variable (data_variables.csv), and one which contains information about geographic locations (data_geos.csv).
+<code>data_geos.csv</code> describes the geographical information.
 
-We can denormalize these in to a single table for consumption by the data viz, but these should be kept as three different csv's so, for example, if we change the description of a variable we only have to do it in one place.
+<code>data_variables.csv</code> describes all the variables we have.
 
-## data_values.csv
-
-This actually contains the values of the data
-
-The fields are:
-
-<ol>
-	<li>GeoID: this corresponds to Id2 from the census data, like 6001, should match GeoId in data_geo.csv</li>
-	<li>VariableID: the id we have given to the variable, should match VariableId in data_variables.csv</li>
-	<li>Date: this should be a date of format yyyy-mm-dd</li>
-	<li>Value: the value of the variable, for that geo, for that date</li>
-</ol>
+<code>values/*.csv</code> actually has the values for all the variables.
 
 ## data_variables.csv
 
