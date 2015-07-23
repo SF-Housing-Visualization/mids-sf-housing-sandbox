@@ -1,5 +1,15 @@
 # Structure
 
+Directory structure for production data looks like this:
+
+	data/prod/
+		data_variables.csv
+		data_geos.csv
+		values/
+			GroupA.csv
+			GroupB.csv
+			...
+
 This is the sructure of the data that the visualizaiton will ultimately use. We need to get our data in to this format.
 
 There are three csv's. One which has the actual data (data_values.csv), one which contains information about each variable (data_variables.csv), and one which contains information about geographic locations (data_geos.csv).
