@@ -1,4 +1,4 @@
-# Structure
+#Structure
 
 Directory structure for production data looks like this:
 
