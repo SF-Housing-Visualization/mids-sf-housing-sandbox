@@ -3,7 +3,7 @@ import sys
 import pandas
 
 fdir = '/Users/rossboberg/Documents/MIDS/dataviz209/final-project/mids-sf-housing-sandbox/data/prod/values_orig'
-newdir = '/Users/rossboberg/Documents/MIDS/dataviz209/final-project/mids-sf-housing-sandbox/data/prod/values_auto'
+newdir = '/Users/rossboberg/Documents/MIDS/dataviz209/final-project/mids-sf-housing-sandbox/data/prod/values'
 
 exclude = ['.DS_Store']
 dontpercent = ['B25092.csv', 'B25097.csv', 'B25099.csv']
