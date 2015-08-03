@@ -1,0 +1,21 @@
+import os
+import sys
+import pandas
+
+dir = '/Users/rossboberg/Documents/MIDS/dataviz209/final-project/mids-sf-housing-sandbox/data/prod/values'
+
+os.listdir(dir)
+
+total_col = 'Estimate; Total:'
+
+for fname in os.listdir(dir):
+	df = pandas.read_csv(dir + '/' + fname)
+	cols = df.columns.values
+	if total_col in cols:
+		col_sub = [c for c in cols if 'Estimate' in c]
+		dfi = df[col_sub].astype('float').div(df[total_col].astype('float'), axis='index')
+		#print(col_sub)
+
+
+
+

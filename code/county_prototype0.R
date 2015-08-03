@@ -4,7 +4,7 @@
 require(ggplot2)
 require(reshape2)
 require(scales)
-#require(jsonlite)
+require(jsonlite)
 require(data.table)
 
 # go here for info about installing this
@@ -67,6 +67,8 @@ linegrid
 mapjson1 = '../data/ca-counties.json'
 mapjson2 = '../data/caCountiesGeoOpenData.json'
 usejson = 1
+#show_date = max(metal$Period)
+show_date = as.Date('2005-06-01')#unique(metal$Period[length(unique(metal$Period))-1])
 
 ## Make map_dt and label_df from one of the json files
 if(usejson == 1){
@@ -75,20 +77,20 @@ if(usejson == 1){
   ogrListLayers(mapjson)
   
   # layer to extract
-  layer = 'OGRGeoJSON'
+  #layer = 'OGRGeoJSON'
   
-  ogrInfo(mapjson, layer)
-  ogrFIDs(mapjson, layer)
+  #ogrInfo(mapjson, layer)
+  #ogrFIDs(mapjson, layer)
   
   # get map data - this fails
-  map = readOGR(mapjson, layer, drop_unsupported_fields = T)
+  #map = readOGR(mapjson, layer, drop_unsupported_fields = T)
   
   jsontext = readChar(mapjson, 100000000)
   json = fromJSON(jsontext)
   
   # centroids & labels
   countyInfo = json[[3]][[3]]
-  countyInfo$name[countInfo$name=='Los Angeles'] = 'LA'
+  countyInfo$name[countyInfo$name=='Los Angeles'] = 'LA'
   
   # boundaries
   for(i in 1:nrow(countyInfo)){
@@ -101,13 +103,15 @@ if(usejson == 1){
     }
   }
   
+  
+  # get the last value from the data for coloring the plot
+  last_val = subset(metal, Period == show_date)
+  
   # restrict labels to counties in data
   label_df = subset(countyInfo, countyInfo$name %in% last_val$County)
   label_df$long = sapply(label_df$centroid, function(x){return(x[1])})
   label_df$lat = sapply(label_df$centroid, function(x){return(x[2])})
-  
-  # get the last value from the data for coloring the plot
-  last_val = subset(metal, Period == max(Period))
+
   
   label_df$Affordability = last_val$Affordability[match(label_df$name, last_val$County)]
   map_dt$Affordability = last_val$Affordability[match(map_dt$id, last_val$County)]
@@ -145,7 +149,7 @@ if(usejson == 1){
   label_df = aggregate(map_df[,c('long','lat')], by = list(name=map_df$name), FUN=function(x){return(mean(c(max(x),min(x))))})
   
   # get the last value from the data for coloring the plot
-  last_val = subset(metal, Period == max(Period))
+  last_val = subset(metal, Period == show_date)
   
   # merge the data
   map_dt = data.table(
@@ -157,6 +161,8 @@ if(usejson == 1){
   label_df = subset(label_df, label_df$name %in% last_val$County)
   
 }
+
+
 
 # initiate the plot
 ggm = ggplot(data=map_dt, aes(x=long, y=lat)) + theme_bw()
@@ -172,7 +178,7 @@ ggm = ggm + geom_text(aes(label=name), data=label_df, color=rgb(.2,.2,.2), size 
 # restrict scope
 #gg = gg + ylim(32.5, 39.1)
 ggm = ggm + ylim(36, 39) + xlim(-125,-119.5)
-ggm
+#ggm
 
 
 ##################
@@ -181,45 +187,44 @@ ba_counties = c('Sonoma', 'Napa', 'Sacremento', 'Solano', 'Marin', 'Contra Costa
 metal_ba = subset(metal, County %in% ba_counties)
 ggl = ggplot(data=metal_ba, aes(x=Period, y=Affordability, color=County, group=County))
 ggl = ggl + geom_line() + facet_wrap(~County)
-ggl
+#ggl
 
 ggl2 = ggplot(data=metal_ba, aes(x=Period, y=Affordability, group=County, color=Affordability))
 ggl2 = ggl2 + scale_color_continuous(low="darkred", high="thistle2", guide="colorbar",na.value=rgb(.9,.9,.9))
 ggl2 = ggl2 + geom_line()
-ggl2
+#ggl2
 
 ggl3 = ggplot(data=metal_ba, aes(x=Period, y=Affordability, group=County))
 ggl3 = ggl3 + geom_line(color=rgb(0.4,0.4,0.4))
-ggl3
+#ggl3
 
 ##################
 # Try Highlighting
 
 hi = c('San Mateo', 'Santa Clara')
+#plot_limits = c(min(metal$Affordability, na.rm=T), max(metal$Affordability, na.rm=T))
+plot_limits = c(min(metal$Affordability, na.rm=T)*0.95, max(metal$Affordability, na.rm=T)*1.05)
 
 # initiate the plot
 him = ggplot(data=map_dt, aes(x=long, y=lat)) + theme_bw()
 # add map with affordability coloring
-#him = him + geom_map(map=map_dt,
-#                     aes(map_id=id, fill=Affordability, size=id %in% hi, color=id %in% hi)
-#                     )
-# him = him + scale_size_manual(values=c(0.25,1.25))
-# him = him + scale_color_manual(values=c(rgb(0.4,0.4,0.4),rgb(0.1,0.1,0.1)))
+# add county labels
 him = him + geom_map(map=subset(map_dt, !id %in% hi),
                      aes(map_id=id, fill=Affordability),
                      size = 0.25, color = rgb(0.4,0.4,0.4)
-)
-him = him + geom_map(map=subset(map_dt, id %in% hi),
-                     aes(map_id=id, fill=Affordability),
-                     size = 1.25, color = rgb(0.15,0.15,0.15)
-)
+                     )
+if(length(hi>0)){
+  
+  him = him + geom_map(map=subset(map_dt, id %in% hi),
+                       aes(map_id=id, fill=Affordability),
+                       size = 1.25, color = rgb(0.15,0.15,0.15)
+  )
+  # add county labels
+  him = him + geom_text(aes(label=name), data=subset(label_df, name %in% hi), size = 4, color=rgb(0,0,0), fontface=2)
+}
 # add custom colors
-him = him + scale_fill_continuous(low="darkred", high="thistle2", guide="colorbar",na.value=rgb(.7,.7,.7))
-# add county labels
-#him = him + geom_text(aes(label=name, color=name %in% hi), data=label_df, size = 4)
-him = him + geom_text(aes(label=name), data=subset(label_df, name %in% hi), size = 4, color=rgb(0,0,0), fontface=2)
+him = him + scale_fill_continuous(limits=plot_limits, low="darkred", high="thistle2", guide="colorbar",na.value=rgb(.7,.7,.7))
 him = him + geom_text(aes(label=name), data=subset(label_df, ! name %in% hi), size = 4, color=rgb(0.2,0.2,0.2))
-#him = him + scale_color_manual(values=c(rgb(0.2,0.2,0.2),rgb(0,0,0)))
 # restrict scope
 him = him + ylim(36, 39) + xlim(-125,-119.5)
 him
@@ -228,8 +233,12 @@ him
 hil = ggplot(data=metal_ba, aes(x=Period, y=Affordability, group=County))
 hil = hil + geom_line(color=rgb(0.6,0.6,0.6), size=.5, data=subset(metal_ba, ! County %in% hi))
 #hil = hil + geom_line(color=rgb(0.1,0.1,0.1), size=2, data=subset(metal_ba, County %in% hi))
-hil = hil + geom_line(aes(color=County), size=2, data=subset(metal_ba, County %in% hi))
-hil
+if(length(hi) > 0){
+  hil = hil + geom_line(aes(color=County), size=2, data=subset(metal_ba, County %in% hi))
+}
+hil = hil + geom_vline(xint=as.numeric(show_date), color=rgb(0.2,0.2,0.2))
+hil = hil + geom_text(data=data.frame(County=1), x=as.numeric(show_date), y=0.8, label=format(show_date,'%b%Y'), vjust=1)
+#hil
 
 last_val_ba = subset(last_val, County %in% ba_counties)
 last_val_ba$Highlight = ifelse(last_val_ba$County %in% hi, last_val_ba$County, NA)
@@ -237,8 +246,61 @@ last_val_ba$Highlight = ifelse(last_val_ba$County %in% hi, last_val_ba$County, N
 last_val_ba$OrderedCounty = reorder(last_val_ba$County, last_val_ba$Affordability)
 
 hib = ggplot(data=last_val_ba, aes(x=OrderedCounty, y=Affordability))
-#hil = hil + geom_bar(fill=rgb(0.6,0.6,0.6), data=subset(last_val_ba, ! County %in% hi))
 hib = hib + geom_bar(aes(fill=Highlight), position = 'dodge',stat='identity')
+hib = hib + ylim(0,plot_limits[2])
 hib = hib + theme(axis.text.y=element_text(size=14))
-hib = hib+coord_flip()
+hib = hib+coord_flip()+ ggtitle(format(show_date,'%b%Y'))
 hib
+
+
+blankPlot <- ggplot()+geom_blank(aes(1,1))+
+  theme(
+    plot.background = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(), 
+    panel.border = element_blank(),
+    panel.background = element_blank(),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    axis.text.x = element_blank(), 
+    axis.text.y = element_blank(),
+    axis.ticks = element_blank(),
+    axis.line = element_blank()
+  )
+
+#########
+# arrange plots
+require(gridExtra)
+
+grid.arrange(him, hib, hil, blankPlot,
+            ncol=2, nrow=2, widths=c(4, 1.4), heights=c(1.4, 4))
+
+# remove legends etc
+
+
+grid.newpage()
+pushViewport(viewport(layout = grid.layout(2, 2, widths=c(1.6, 1), heights=c(1.6, 1))))
+define_region <- function(row, col){
+  viewport(layout.pos.row = row, layout.pos.col = col)
+} 
+
+pmap = him + theme(axis.ticks = element_blank(), axis.text = element_blank(), axis.title = element_blank(), legend.position = c(.15,.5))
+#pmap
+pbar = hib + theme(legend.position='none')
+pline = hil + theme(legend.position='none')
+
+print(pmap, vp=define_region(1, 1))
+print(pbar, vp = define_region(1, 2))
+print(pline, vp = define_region(2, 1:2))
+
+
+
+####################
+# 
+
+
+heatmapcsv = read.csv('../data/heatmap.csv', stringsAsFactors = FALSE)
+
+ggplot(heatmapcsv,aes(x=Affordability, y=Income)) + geom_point() + geom_text(aes(label=County), vjust=1.2, hjust=0.2)
+
+

@@ -55,3 +55,4 @@ cars_formatted = metal[,c('GeoID', 'VariableID', 'Date', 'Value')]
 
 write.csv(cars_formatted, file='../data/cars_affordability_formatted.csv', row.names=F)
 
+head(cars_formatted)
