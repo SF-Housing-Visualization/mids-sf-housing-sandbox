@@ -20,6 +20,7 @@ for fname in [f for f in os.listdir(fdir) if not (f in exclude)]:
 		col_sub = [c for c in cols if ('Estimate' in c) & (c != total_col)]
 		df_pct = df[col_sub].astype('float').div(df[total_col].astype('float'), axis='index')
 		col_new = [c.replace('Estimate; ', '') for c in col_sub]
+		col_new = [c.replace('Total: - ', '') for c in col_new]
 		df_pct.columns = col_new
 		df_id = df[id_vars]
 		df_new = df_id.merge(df_pct, right_index=True, left_index=True)
